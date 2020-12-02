@@ -11,7 +11,8 @@ main.c demonstrates how to wield networkexposure.c and affiliationexposure.c and
 
 See the "main" function for further details on executing either the multi-threaded or single threaded execution.
 
-Example for single thread execution of network exposure model
+
+#####Example for single thread execution of network exposure model
 
 ```C
 //Define the path for output of the performance results
@@ -20,7 +21,22 @@ char fileName [] = "path_to_performance_output.csv";
 //Define the path location of the network files
 char target_directory [] = "path_to_folder_network_file_and_attribute_file";
 
+//N.B. "NETWORK" flags for single threaded computation 
 runBatchTest(target_directory, fileName, NETWORK, NULL, true);
+
+return(0);
+```
+#####Example for single thread execution of affiliation exposure model
+
+```C
+//Define the path for output of the performance results
+char fileName [] = "path_to_performance_output.csv";
+    
+//Define the path location of the network files
+char target_directory [] = "path_to_folder_network_file_and_attribute_file";
+
+//N.B. "AFFILIATION" flags for single threaded computation. The character parameter is used to indicate label used to identifiy nodes that are in the first mode. 
+runBatchTest(target_directory, fileName, AFFILIATION, "1",true);
 
 return(0);
 ```
