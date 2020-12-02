@@ -2,7 +2,7 @@
 Implementation of network exposure model and affiliation exposure model to address big graph data networks for social network analysis and network analysis that rely on these computations. For details about the aforementioned network computation refer to the References below.
 
 ### Usage
-See main.c for sample execution.
+See src/main.c for sample execution.
 
 ### Dataset 
 Both models requires two files per network residing in folder - a network data file and the attribute data file. For affiliation exposure model the attribute data file also has the mode identification.
