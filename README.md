@@ -4,6 +4,10 @@ Implementation of network exposure model and affiliation exposure model to addre
 ### Usage
 See src/main.c for sample execution.
 
+### Architectural Class View
+
+![UML Class Diagram](https://raw.githubusercontent.com/NET-EXPO/Core/refs/heads/main/images/class_diagram.png "NET EXPO Core Class Diagram")
+
 ### Dataset 
 Both models requires two files per network residing in folder - a network data file and the attribute data file. For affiliation exposure model the attribute data file also has the mode identification.
 
