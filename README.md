@@ -1,25 +1,25 @@
 # NET-EXPO Core
 Implementation of network exposure model and affiliation exposure model to address big graph data networks for social network analysis and network analysis that rely on these computations. For details about the aforementioned network computation refer to the References below.
 
-### Usage
+## Usage
 See src/main.c for sample execution.
 
-### Architectural Class View
+## Architectural Class View
 
 ![UML Class Diagram](https://raw.githubusercontent.com/NET-EXPO/Core/refs/heads/main/images/class_diagram.png "NET EXPO Core Class Diagram")
 
-### Dataset 
+## Dataset 
 Both models requires two files per network residing in folder - a network data file and the attribute data file. For affiliation exposure model the attribute data file also has the mode identification.
 
 *Sample large datasets can be found here: https://bit.ly/2JDHcqF. 
 
-### Funding
+## Funding
 NET-EXPO Core has been funded by National Institute of Allergy and Infectious Diseases of the National Institutes of Health under Award Number R01AI130460-03S1
 
-### License
+## License
 All work contained in this package is licensed under the Apache License, Version 2.0. See the include LICENSE file.
 
-### REFRENCES
+## REFRENCES FOR EXPOSURE MODELS
 
 #### Network exposure model
 *Marsden, P.V., Friedkin, N.E.: Network studies of social influence. Sociological Methods & Research 22(1) (1993) 127–151.
